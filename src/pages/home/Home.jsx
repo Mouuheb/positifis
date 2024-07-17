@@ -10,7 +10,7 @@ const Home = () => {
                 <p>{data.header.p}</p>
                 {data.header.btn.map((btn,index)=>{
                     return(
-                        <a className='btn' >
+                        btn.vzbl && <a className='btn' key={index} >
                             {btn.btnText}
 
                         </a>
