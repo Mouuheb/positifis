@@ -183,6 +183,64 @@ const data = {
                 path:'',
             }
         }
+    },
+    CaseStudies:{
+        title:'Case Studies',
+        p:'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies',
+        cases:[
+            {
+                id:1,
+                p:'For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.',
+                btn:{
+                    txt:'Learn more',
+                    path:'',
+                    vzbl:true,
+                }
+            },
+            {
+                p:'For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.',
+                btn:{
+                    txt:'Learn more',
+                    path:'',
+                    vzbl:true,
+                }
+            },
+            {
+                p:'For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.',
+                btn:{
+                    txt:'Learn more',
+                    path:'',
+                    vzbl:true,
+                }
+            },
+        ]
+    },
+    work:{
+        title:'Our Working Process',
+        p:'Step-by-Step Guide to Achieving Your Business Goals',
+        element:[
+            {
+                id:1,
+                num:'01',
+                title:'Consultation',
+                p:'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+
+            },
+            {
+                id:2,
+                num:'02',
+                title:'Research and Strategy Development',
+                p:'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+
+            },
+            {
+                id:3,
+                num:'03',
+                title:'Implementation',
+                p:'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+
+            }
+        ]
     }
 
 };

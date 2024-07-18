@@ -5,6 +5,8 @@ import Nav from './pages/nav/Nav'
 import Home from './pages/home/Home'
 import Ads from './pages/ads/Ads'
 import Services from './pages/services/Services'
+import Case from './pages/case/Case'
+import Work from './pages/work/Work'
 // import './App.css'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
     <Home/>
     <Ads/>
     <Services/>
+    <Case/>
+    <Work/>
     </>
   )
 }
