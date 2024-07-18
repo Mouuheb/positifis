@@ -1,0 +1,34 @@
+.team{
+    width: 90%;
+    margin: 7rem 5%;
+    background-color: var(--color-white);
+
+}
+
+.team .header{
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 2rem;
+    align-items: center;
+}
+
+.team .header .title{
+    /* width: 10%; */
+}
+
+.team .header h1{
+    align-items: center;
+    width: fit-content;
+    color: var(--color-text);
+    background-color: var(--color-bg-pr);
+    border-radius: 0.5rem;
+    padding: .0rem 0.2rem;
+}
+
+.team .header p{
+    color: var(--color-text);
+    font-weight:400;
+    font-size: 0.9rem;
+}

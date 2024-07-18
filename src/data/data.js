@@ -262,6 +262,11 @@ const data = {
 
             }
         ]
+    },
+    team:{
+        title:'Team',
+        p:'Meet the skilled and experienced team behind our successful digital marketing strategies',
+        
     }
 
 };
