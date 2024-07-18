@@ -93,6 +93,96 @@ const data = {
                 id:10
             },
         ]
+    },
+    services:{
+        title:'services',
+        p:'At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:',
+        element:[
+            {
+                id:1,
+                title1:'Search engine',
+                title2:'optimization',
+                img:'img/c1.png',
+                btn:{
+                    txt:'Learn more',
+                    vzbl:true,
+                    path:'',
+                },
+                color:1
+            },
+            {
+                id:2,
+                title1:'Pay-per-click',
+                title2:'advertising',
+                img:'img/c2.png',
+                btn:{
+                    txt:'Learn more',
+                    vzbl:true,
+                    path:'',
+                },
+                color:2
+            },
+            {
+                id:3,
+                title1:'Social Media',
+                title2:'Marketing',
+                img:'img/c3.png',
+                btn:{
+                    txt:'Learn more',
+                    vzbl:true,
+                    path:'',
+                },
+                color:3
+            },
+            {
+                id:4,
+                title1:'Email',
+                title2:'Marketing',
+                img:'img/c4.png',
+                btn:{
+                    txt:'Learn more',
+                    vzbl:true,
+                    path:'',
+                },
+                color:1
+            },
+            {
+                id:5,
+                title1:'Content',
+                title2:'Creation',
+                img:'img/c5.png',
+                btn:{
+                    txt:'Learn more',
+                    vzbl:true,
+                    path:'',
+                },
+                color:2
+            },
+            {
+                id:6,
+                title1:'Analytics and',
+                title2:'Tracking',
+                img:'img/c6.png',
+                btn:{
+                    txt:'Learn more',
+                    vzbl:true,
+                    path:'',
+                },
+                color:3
+            },
+            
+            
+        ],
+        footer:{
+            img:'img/c7.png',
+            title:'Let’s make things happen',
+            p:'Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.',
+            btn:{
+                txt:'Get your free proposal',
+                vzbl:true,
+                path:'',
+            }
+        }
     }
 
 };
