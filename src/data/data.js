@@ -239,6 +239,27 @@ const data = {
                 title:'Implementation',
                 p:'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
 
+            },
+            {
+                id:4,
+                num:'04',
+                title:'Monitoring and Optimization',
+                p:'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+
+            },
+            {
+                id:5,
+                num:'05',
+                title:'Reporting and Communication',
+                p:'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+
+            },
+            {
+                id:6,
+                num:'06',
+                title:'Continual Improvement',
+                p:'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
+
             }
         ]
     }
