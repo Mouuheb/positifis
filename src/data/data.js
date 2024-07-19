@@ -358,26 +358,34 @@ const data = {
             vzbl:true
         }
     },
-    Testimonials:{
+    testimonials:{
         title:'Testimonials',
         p:'Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services',
         comment:[
             {
+                id:1,
                 txt:'"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
                 auther:'John Smith',
                 post:'Marketing Director at XYZ Corp',
             },
             {
+                id:2,
                 txt:'"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
                 auther:'John Smith',
                 post:'Marketing Director at XYZ Corp',
             },
             {
+                id:3,
                 txt:'"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
                 auther:'John Smith',
                 post:'Marketing Director at XYZ Corp',
             },
         ]
+    },
+    Contact:{
+        title:'Contact Us',
+        p:"Connect with Us: Let's Discuss Your Digital Marketing Needs",
+        
     }
 
 };

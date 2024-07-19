@@ -8,6 +8,7 @@ import Services from './pages/services/Services'
 import Case from './pages/case/Case'
 import Work from './pages/work/Work'
 import Team from './pages/team/Team'
+import Testimonial from './pages/testimonial/Testimonial'
 // import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Case/>
     <Work/>
     <Team/>
+    <Testimonial/>
     </>
   )
 }

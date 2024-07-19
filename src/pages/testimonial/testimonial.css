@@ -1,0 +1,84 @@
+*::-webkit-scrollbar {
+    display: none;
+  }
+.testimonial{
+    width: 90%;
+    margin: 10rem 5%;
+    background-color: var(--color-white);
+}
+
+.testimonial .header{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 2rem;
+    align-items: center;
+}
+
+.testimonial .header .title{
+    width: 35%;
+}
+
+.testimonial .header h1{
+    width: fit-content;
+    color: var(--color-text);
+    background-color: var(--color-bg-pr);
+    border-radius: 0.5rem;
+    padding: .0rem 0.2rem;
+}
+
+.testimonial .header p{
+    color: var(--color-text);
+    font-weight:400;
+    font-size: 0.9rem;
+
+}
+
+.testimonial .element{
+    width: 100%;
+    background-color: var(--color-dark);
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    border-radius: 2rem;
+    /* margin-left: 25%; */
+    overflow-x: hidden;
+    padding-left: 25%;
+    overflow-x: auto;
+    
+
+}
+
+.testimonial .element .card{
+    margin-left: 0%;
+    /* width: 50%; */
+}
+
+.testimonial .element .comment {
+    width: 35rem;
+    
+    
+    margin: 8rem 2rem 4rem;
+    /* border: 1px solid var(--color-bg-pr); */
+}
+
+.testimonial .element .comment .txt{
+    padding: 4rem 2rem;
+    border-radius: 2rem;
+    color: var(--color-white);
+    border: 1px solid var(--color-bg-pr);
+}
+
+.testimonial .element .comment h2{
+    padding: 3rem 4rem 0rem;
+    border-radius: 2rem;
+    color: var(--color-bg-pr);
+}
+
+.testimonial .element .comment .sub{
+    padding: 0rem 4rem 0rem;
+    border-radius: 2rem;
+    color: var(--color-white);
+}
+
+
