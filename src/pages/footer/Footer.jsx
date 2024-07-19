@@ -34,9 +34,9 @@ const Footer = () => {
         <div className='p2-0'>
             <div className='p2-1'>
                 <h2>{data.footer.title}</h2>
-                {data.footer.info.map((item)=>{
+                {data.footer.info.map((item,index)=>{
                     return(
-                        <p>{item}</p>
+                        <p key={index} >{item}</p>
                     )
                 })}
             </div>
