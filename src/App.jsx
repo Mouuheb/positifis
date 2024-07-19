@@ -9,6 +9,8 @@ import Case from './pages/case/Case'
 import Work from './pages/work/Work'
 import Team from './pages/team/Team'
 import Testimonial from './pages/testimonial/Testimonial'
+import Contact from './pages/contact/Contact'
+import Footer from './pages/footer/Footer'
 // import './App.css'
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
     <Work/>
     <Team/>
     <Testimonial/>
+    <Contact/>
+    <Footer/>
     </>
   )
 }

@@ -383,9 +383,25 @@ const data = {
         ]
     },
     Contact:{
+        img:'img/f2.png',
         title:'Contact Us',
         p:"Connect with Us: Let's Discuss Your Digital Marketing Needs",
-        
+        btn:{
+            vzbl:true,
+            txt:'send message'
+        }
+    },
+    footer:{
+        title:'Contact us:',
+        info:
+        [
+            'Email: info@positivus.com',
+            'Phone: 555-567-8901',
+            'Address: 1234 Main St Moonstone City, Stardust State 12345'
+
+        ],
+        copyRaight:'© 2023 Positivus. All Rights Reserved',
+        privecy:'Privacy Policy',
     }
 
 };

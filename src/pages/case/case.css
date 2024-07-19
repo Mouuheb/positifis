@@ -1,6 +1,7 @@
 .case{
     width: 90%;
     margin: 0 5%;
+    margin-top: 5rem;
     background-color: var(--color-white);
 }
 

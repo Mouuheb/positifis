@@ -3,11 +3,13 @@
   }
 .testimonial{
     width: 90%;
-    margin: 10rem 5%;
+    margin: 0rem 5%;
+    margin-top: 15rem;
     background-color: var(--color-white);
 }
 
 .testimonial .header{
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: row;
     width: 60%;

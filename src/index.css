@@ -16,6 +16,7 @@
   --color-text:#000000;
   --color-bg-pr:#B9FF66;
   --color-dark:#191A23;
+  --color-dark-2:#292A32;
   --color-light:#F3F3F3;
   --color-white:#ffffff; 
   --color-1: #FDC435;
@@ -28,7 +29,7 @@
 
 }
 body{
-  background-color: var(--color-5);
+  background-color: var(--color-white);
 
 }
 
