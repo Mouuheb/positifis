@@ -12,9 +12,9 @@ const Case = () => {
             <p>{data.CaseStudies.p}</p>
         </div>
         <div className='element' >
-            {data.CaseStudies.cases.map((item)=>{
+            {data.CaseStudies.cases.map((item,index)=>{
                 return(
-                    <div className='card' key={item.id} >
+                    <div className='card' key={index} >
                         <p>
                             {item.p}
                         </p>

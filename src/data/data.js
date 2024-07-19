@@ -266,7 +266,118 @@ const data = {
     team:{
         title:'Team',
         p:'Meet the skilled and experienced team behind our successful digital marketing strategies',
-        
+        element:[
+            {
+                id:1,
+                img:'img/p1.png',
+                name:'John Smith',
+                post:'CEO and Founder',
+                p:'10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy',
+                social:[
+                    {
+                        // icon:`<FaLinkedinIn/>`,
+                        path:''
+
+                    }
+                ]
+            },
+            {
+                id:2,
+                img:'img/p2.png',
+                name:'Jane Doe',
+                post:'Director of Operations',
+                p:'7+ years of experience in project management and team leadership. Strong organizational and communication skills',
+                social:[
+                    {
+                        // icon:`<FaLinkedinIn/>`,
+                        path:''
+
+                    }
+                ]
+            },
+            {
+                id:3,
+                img:'img/p3.png',
+                name:'Michael Brown',
+                post:'Senior SEO Specialist',
+                p:'5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization',
+                social:[
+                    {
+                        // icon:`<FaLinkedinIn/>`,
+                        path:''
+
+                    }
+                ]
+            },
+            {
+                id:4,
+                img:'img/p4.png',
+                name:'Emily Johnson',
+                post:'PPC Manager',
+                p:'3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis',
+                social:[
+                    {
+                        // icon:`<FaLinkedinIn/>`,
+                        path:''
+
+                    }
+                ]
+            },
+            {
+                id:5,
+                img:'img/p5.png',
+                name:'Brian Williams',
+                post:'Social Media Specialist',
+                p:'4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement',
+                social:[
+                    {
+                        // icon:`<FaLinkedinIn/>`,
+                        path:''
+
+                    }
+                ]
+            },
+            {
+                id:6,
+                img:'img/p6.png',
+                name:'Sarah Kim',
+                post:'Content Creator',
+                p:'2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries',
+                social:[
+                    {
+                        // icon:`<FaLinkedinIn/>`,
+                        path:''
+
+                    }
+                ]
+            }
+        ],
+        btn:{
+            txt:'See all Team',
+            path:'',
+            vzbl:true
+        }
+    },
+    Testimonials:{
+        title:'Testimonials',
+        p:'Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services',
+        comment:[
+            {
+                txt:'"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
+                auther:'John Smith',
+                post:'Marketing Director at XYZ Corp',
+            },
+            {
+                txt:'"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
+                auther:'John Smith',
+                post:'Marketing Director at XYZ Corp',
+            },
+            {
+                txt:'"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."',
+                auther:'John Smith',
+                post:'Marketing Director at XYZ Corp',
+            },
+        ]
     }
 
 };

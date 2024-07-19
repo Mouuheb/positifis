@@ -25,7 +25,7 @@
 }
 
 .sev .element{
-    gap: 2.5;
+    /* gap: 2.5; */
     display: grid;
     /* grid-template-columns: repeat(auto-fill, minmax(50%, 0fr)); */
     grid-template-columns: 1fr 1fr;

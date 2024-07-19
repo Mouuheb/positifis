@@ -14,9 +14,9 @@ const Work = () => {
         </div>
 
         <div className='element'>
-            {data.work.element.map((item)=>{
+            {data.work.element.map((item,index)=>{
                 return(
-                    <div className={`card ${show===item.id ? 'aa' :'bb'}`} >
+                    <div className={`card ${show===item.id ? 'aa' :'bb'}`} key={index} >
                         <div className='p1-componment' onClick={() =>( show!==item.id ? setShow(item.id ): setShow(null))}>
                             <h1><span className='diff' >{item.num}</span> {item.title} </h1>
                             {show!==item.id ?<TiPlus className='icon' />:<TiMinus className='icon' />}
