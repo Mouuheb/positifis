@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .sev {
         width: 90%;
         margin: 0 5%;
@@ -195,7 +195,11 @@
 
     }
 }
-
+/* @media screen and (min-width: 800px) and (max-width: 1000px) {
+    .sev{
+        background-color: aqua;
+    }
+} */
 
 @media screen and (max-width: 800px) {
     .sev {
@@ -204,7 +208,7 @@
         margin: 0 2%;
         margin-top: 7rem;
         /* margin-bottom: 0rem; */
-        background-color: rebeccapurple;
+        /* background-color: rebeccapurple; */
         /* background-color: var(--color-white); */
     }
 
@@ -273,7 +277,7 @@
         width: 90%;
         height: 90%;
         margin: 5% 5%;
-        background-color: antiquewhite;
+        /* background-color: antiquewhite; */
         /* align-items: center; */
 
 
@@ -298,7 +302,7 @@
     .sev .element .btn {
 
         /* align-items: center; */
-        background-color: red;
+        /* background-color: red; */
         height: 100%;
         align-items: end;
         /* margin-top: 50%; */
@@ -358,7 +362,7 @@
         display: none;
     }
     .sev .footer .card{
-        background-color: aqua;
+        /* background-color: aqua; */
         
     }
 
@@ -399,14 +403,14 @@
     .sev .card .img-btn-ph{
         display: flex;
         flex-direction: row;
-        background-color: aqua;
+        /* background-color: aqua; */
         width: 100%;
         height: 70%;
     }
     .sev .card .img-btn-ph .img-content-ph {
         width: 50%;
         height: 100%;
-        background-color: blue;
+        /* background-color: blue; */
         overflow: hidden;
         
 

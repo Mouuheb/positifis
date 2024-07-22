@@ -75,7 +75,7 @@
     
     
     .home .containner{
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
         display: flex;
         flex-direction: column;
         margin: 0rem 0;
@@ -87,7 +87,7 @@
     .home .containner .contnent-containner .image-containner-ph{
         /* display: flex; */
         box-sizing: border-box;
-        background-color: aqua;
+        /* background-color: aqua; */
         width: 100%;
         height: 20rem; 
     }
@@ -128,7 +128,7 @@
     }
     .home .containner .contnent-containner .btn-cmp{
         text-align: center;
-        background-color: aqua;
+        /* background-color: aqua; */
         height: fit-content;
         margin-top: 2rem ;
        
