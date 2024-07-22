@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     .nav {
         align-items: center;
         top: 0;
@@ -67,6 +67,80 @@
     }
 }
 
+@media screen and (min-width: 801px) and (max-width: 1199px)  {
+    .nav {
+        align-items: center;
+        top: 0;
+        left: 0;
+        position: fixed;
+        z-index: 9;
+        width: 100%;
+        height: 5rem;
+        padding: 1rem;
+        /* background-color: aqua; */
+        background-color: var(--color-white);
+        /* margin: 0 2%; */
+    }
+
+    .nav .logo {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        gap: 0.1rem;
+    }
+
+    .nav .logo .icon {
+        size: 12rem;
+        height: 2rem;
+        width: 2rem;
+        color: var(--color-text);
+    }
+
+    .nav .logo h1 {
+        color: var(--color-text);
+        font-weight: 500;
+        font-size: large;
+    }
+
+
+
+
+    .nav .p1 {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+
+    .nav .p1 .p2 a {
+        margin: 0 0.5rem;
+        color: var(--color-text);
+        text-decoration: none;
+
+    }
+
+    .nav .p1 .p2 a:hover {
+        margin: 0 1rem;
+        color: var(--color-text);
+        text-decoration: double;
+
+    }
+
+    .nav .p1 .btn {
+        display: none;
+        font-size: .8rem;
+        border-radius: .6rem;
+        border: solid 1px var(--color-text);
+        align-items: center;
+        text-align: center;
+        padding: .5rem;
+    }
+}
+
 @media screen and (max-width: 800px){
 
     .nav {
@@ -114,6 +188,7 @@
 
     }
     .nav .p1 .btn {
+        display: none;
         border-radius: .6rem;
         border: solid 1px var(--color-text);
         align-items: center;
