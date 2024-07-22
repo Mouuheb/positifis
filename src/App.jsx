@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    {/* <Nav/> */}
+    <Nav/>
     <Home/>
     <Ads/>
     <Services/>
@@ -27,7 +27,7 @@ function App() {
     <Team/>
     <Testimonial/>
     <Contact/>
-    
+    <Footer/>
     
 
     {/* 

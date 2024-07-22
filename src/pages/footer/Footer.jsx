@@ -22,6 +22,32 @@ const Footer = () => {
                 {/* {data.navBtn.vzbl && <a className='btn' href={data.path} >{data.navBtn.btnText}</a> } */}
                 
             </div>
+            <div className='p2-ph'>
+                {data.pageLink.map((link,index) =>{
+                    return(
+                        <div key={index} className='link-content' ><a className='link' href={link.path} >{link.name}</a><br/></div>
+                    )
+                } )}
+
+                <div className='p2-0'>
+                    <div className='p2-1'>
+                        <h2>{data.footer.title}</h2>
+                        {data.footer.info.map((item,index)=>{
+                            return(
+                                <p key={index} >{item}</p>
+                            )
+                        })}
+                    </div>
+                    <div className='p2-2' >
+                        <div className='conponment' >
+                            <input placeholder='Email' />
+                            <label>Subscribe to news </label>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
             <div className='social' >
                 <a><FaLinkedinIn className='icon'/></a>
                 <a><FaFacebook className='icon'/></a>

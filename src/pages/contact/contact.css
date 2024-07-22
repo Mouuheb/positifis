@@ -220,7 +220,7 @@
 
 
     .contact .form .btn {
-        width: 50%;
+        width: 100%;
         background-color: var(--color-dark);
         border: none;
         color: var(--color-white);
