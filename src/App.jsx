@@ -18,16 +18,16 @@ function App() {
 
   return (
     <>
-    <Nav/>
+    {/* <Nav/> */}
     <Home/>
-    <Ads/>
+    {/* <Ads/>
     <Services/>
     <Case/>
     <Work/>
     <Team/>
     <Testimonial/>
     <Contact/>
-    <Footer/>
+    <Footer/> */}
     </>
   )
 }
