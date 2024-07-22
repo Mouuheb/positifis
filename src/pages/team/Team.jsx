@@ -49,9 +49,9 @@ const Team = () => {
           
         </div>
         <div className='btn-componment'>
-          { data.team.btn.vzbl && <a className='btn' href={data.team.btn.path} >
+          { data.team.btn.vzbl && <button className='btn' href={data.team.btn.path} >
             {data.team.btn.txt}
-          </a>}
+          </button>}
         </div>
     </div>
   )

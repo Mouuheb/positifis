@@ -24,13 +24,17 @@ function App() {
     <Services/>
     <Case/>
     <Work/>
-    
-
-    {/* 
     <Team/>
     <Testimonial/>
     <Contact/>
-    <Footer/> */}
+    
+    
+
+    {/* 
+    
+    
+    
+     */}
     </>
   )
 }

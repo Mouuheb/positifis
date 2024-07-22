@@ -132,6 +132,9 @@
         align-items: center;
         overflow: hidden; */
     }
+    .case .element .card p{
+        color: var(--color-white);
+    }
 
     .case .element a {
         text-decoration: none;
