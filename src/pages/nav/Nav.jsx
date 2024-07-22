@@ -15,7 +15,7 @@ const Nav = () => {
             <div className='p2'>
                 {data.pageLink.map((link,index) =>{
                     return(
-                        <a key={index} href={link.path} >{link.name}</a>
+                        <a className='links' key={index} href={link.path} >{link.name}</a>
                     )
                 } )}
                 {data.navBtn.vzbl && <a className='btn' href={data.path} >{data.navBtn.btnText}</a> }
