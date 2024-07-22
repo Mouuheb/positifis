@@ -22,10 +22,10 @@ function App() {
     <Home/>
     <Ads/>
     <Services/>
-    {/* 
-    
     <Case/>
-    <Work/>
+    
+
+    {/* <Work/>
     <Team/>
     <Testimonial/>
     <Contact/>
