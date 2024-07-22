@@ -23,9 +23,10 @@ function App() {
     <Ads/>
     <Services/>
     <Case/>
+    <Work/>
     
 
-    {/* <Work/>
+    {/* 
     <Team/>
     <Testimonial/>
     <Contact/>
