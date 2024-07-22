@@ -21,8 +21,9 @@ function App() {
     {/* <Nav/> */}
     <Home/>
     <Ads/>
-    {/* 
     <Services/>
+    {/* 
+    
     <Case/>
     <Work/>
     <Team/>

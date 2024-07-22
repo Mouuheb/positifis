@@ -21,9 +21,13 @@
     
     
     
-    .home .containner .contnent-containner
+    .home .containner .contnent-containner{
+        width: 50%;
+        /* background-color: beige; */
+    }
     .home .containner .image-containner{
         width: 50%;
+        /* background-color: aqua; */
     }
 
     .home .containner .image-containner img{

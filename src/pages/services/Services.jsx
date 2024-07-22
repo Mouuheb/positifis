@@ -26,7 +26,9 @@ const Services = () => {
                     >{item.title2}</h2>
 
                     </div>
-                    <h2>{item.title}</h2>
+                    {/* <h2>{item.title}</h2> */}
+                    <div className='img-btn-ph' >
+                    
                     <div className='btn'>
 
                     {item.btn.vzbl && (
@@ -40,9 +42,16 @@ const Services = () => {
                         </div><a href={item.btn.path}>{item.btn.txt}</a></>
                     )
                     }
+
+                    
+
+                    </div>
+                    <div className='img-content-ph'>
+                      {item.img && <img src={item.img} />}
+                    </div>
                     </div>
                   </div>
-                  <div>
+                  <div className='img-content'>
                     {item.img && <img src={item.img} />}
                   </div>
                 </div>
@@ -60,12 +69,12 @@ const Services = () => {
                     <div>
                       <p>{data.services.footer.p}</p>
                     </div>
-                    <div className='btn'>
+                    <div className='btn-cmp'>
 
                     {data.services.footer.btn.vzbl && (
                       <><div  >
 
-                        </div><a href={data.services.footer.path}>{data.services.footer.btn.txt}</a></>
+                        </div><button className='btn' href={data.services.footer.path}>{data.services.footer.btn.txt}</button></>
                     )
                     }
                     </div>
