@@ -20,7 +20,8 @@ function App() {
     <>
     {/* <Nav/> */}
     <Home/>
-    {/* <Ads/>
+    <Ads/>
+    {/* 
     <Services/>
     <Case/>
     <Work/>

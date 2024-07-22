@@ -15,6 +15,16 @@ const Ads = () => {
                     )
                 })}
             </div>
+
+            <div className='ad-list-2'>
+                {data.slider.item.map((item)=>{
+                    return(
+                        <div className='add' key={item.id} >
+                            <img src={item.img} />
+                        </div>
+                    )
+                })}
+            </div>
         </div>
     </div>
   )
